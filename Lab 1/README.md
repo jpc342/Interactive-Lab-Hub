@@ -71,10 +71,13 @@ The interactive device can be anything *except* a computer, a tablet computer or
 \*\***Describe your setting, players, activity and goals here.**\*\*
 My interaction will be a sensor that activates an alarm when a refrigerator is left open. 
 
-Setting: a kitchen
-Players: the person living there, their refrigerator, alarm system
-Activity: the player does not close the fridge all the way, and the alarm system lets him know to go back and close it
-Goals: to prevent wasting energy and food going bad from the fridge losing its cold air
+_Setting_: a kitchen
+
+_Players_: the person living there, their refrigerator, alarm system
+
+_Activity_: the player does not close the fridge all the way, and the alarm system lets him know to go back and close it
+
+_Goals_: to prevent wasting energy and food going bad from the fridge losing its cold air
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
