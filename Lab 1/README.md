@@ -69,10 +69,17 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
+My interaction will be a sensor that activates an alarm when a refrigerator is left open. 
+
+Setting: a kitchen
+Players: the person living there, their refrigerator, alarm system
+Activity: the player does not close the fridge all the way, and the alarm system lets him know to go back and close it
+Goals: to prevent wasting energy and food going bad from the fridge losing its cold air
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include a picture of your storyboard here**\*\*
+![Storyboard](https://user-images.githubusercontent.com/67603876/132416188-615991bb-aa3b-49b4-9166-6ce7963b5f8e.jpg)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
