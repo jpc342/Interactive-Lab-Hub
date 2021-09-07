@@ -69,9 +69,10 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
-My interaction will be a sensor that activates an alarm when a refrigerator is left open. 
 
-_Setting_: a kitchen
+My staged interaction will be a sensor that activates an alarm when a refrigerator is left open. Two sensors are involved: one to check if the fridge is closed, and another to check if a person is standing in front of the fridge.
+
+_Setting_: a kitchen at any time of day
 
 _Players_: the person living there, their refrigerator, alarm system
 
@@ -88,6 +89,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 \*\***Summarize feedback you got here.**\*\*
 
+The feedback that I received from people I asked about it was that this would be a useful device, and that it would be a good one to try to prototype.
 
 ## Part B. Act out the Interaction
 
@@ -95,7 +97,9 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+On paper, it seemed much easier to intentionally leave a fridge partially open, but my fridge likes to close by itself and even push things out of the way to do so. To fix this, I placed enough items in the back of the fridge, so that when I put a pot in front of them, the fridge door stayed open. 
+
+It also seemed easier at first to find the right angles to film this, but it took a few different tries to find the right spot.
 
 
 ## Part C. Prototype the device
@@ -110,6 +114,11 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+I had problems getting Tinkerbelle to work on my devices; although I was able to download and run it on my computer, even when my phone was connected to the same WiFi network, the access page (using the computer's IPv4 address) would not come up on my phone's browser, nor would it show up when I tried using the "local" address on my own computer. This could be because I need to either reinstall or change the location of some Python files because when I cloned and downloaded the Tinkerbelle files, after installing most of the files, a red line appeared:
+
+![image](https://user-images.githubusercontent.com/67603876/132417074-afb8e795-1c82-4b47-b532-5d2b9d61f667.png)
+
+It was unclear what this meant, since it was only trying to uninstall something that was already installed, and since the program still ran even though it did not fully work. I decided not to use it after all because a remote control light is not necessary to show the interaction that my device facilitates. 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
@@ -129,16 +138,29 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
+There were three main ideas of what this device should look like, all shown in this picture:
+
+![image](https://user-images.githubusercontent.com/67603876/132417996-ac61927a-5986-483f-b72a-b7386cc70911.png)
+
+I ended up deciding by the process described below.
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+I want the device (the sensor above the fridge) to look like a motion/distance sensor, which are usually pointed in one direction as opposed to cameras that have a large field of view. It turns out my Glade Plug-In air freshener when rotated looks exactly the way I wanted, and its prongs fit perfectly into the groove above the freezer; this made it the perfect look-alike to the device I was going for. 
+
+I also considered whether or not to have the alarm sound emanate from the sensor itself, but I decided it would be better to imply its integration into a house speaker system or any other speaker in the house, as these are becoming more popular, and a speaker would make the sensor bulkier (and possibly uglier).
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+[![Watch the video](https://img.youtube.com/vi/zR2wcBsqp98/0.jpg)](https://www.youtube.com/watch?v=zR2wcBsqp98)
+
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+The main inspiration behind my idea was from the example shown in class by Panda Xu from last spring (the microwave device). The secondary was when I was talking to my Mom on the phone, and she mentioned that she had forgotten to close the fridge the day before.
 
 
 # Staging Interaction, Part 2 
