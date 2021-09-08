@@ -125,10 +125,17 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
+Here are some of my first attempts at filming the video:
+
+[![Watch the video](https://img.youtube.com/vi/FQiNGfLGO_M/0.jpg)](https://www.youtube.com/watch?v=FQiNGfLGO_M)
+
+These three clips show me learning that my initial plans for all three of those scenes would not work perfectly. In the first scene, the fridge (as mentioned earlier) does not stay open. In the second, the wrong alarm plays, and the timing with the lights is not even close to synchronized. Finally, in the third clip, I try to hide the phone alarm I use above the fridge so that I can turn it off as I shut the fridge, but not being able to (at the same time) hit the light switch was a problem (so I split this into two clips in the final version).
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
 
+Nothing changed in this step with the prototype itself; the only things that changed were the mistakes mentioned above in the video planning/filming.
 
 ## Part E. Costume the device
 
@@ -148,7 +155,11 @@ I ended up deciding by the process described below.
 
 I want the device (the sensor above the fridge) to look like a motion/distance sensor, which are usually pointed in one direction as opposed to cameras that have a large field of view. It turns out my Glade Plug-In air freshener when rotated looks exactly the way I wanted, and its prongs fit perfectly into the groove above the freezer; this made it the perfect look-alike to the device I was going for. 
 
-I also considered whether or not to have the alarm sound emanate from the sensor itself, but I decided it would be better to imply its integration into a house speaker system or any other speaker in the house, as these are becoming more popular, and a speaker would make the sensor bulkier (and possibly uglier).
+I also considered whether or not to have the alarm sound emanate from the sensor itself, but I decided it would be better to imply its integration into a house speaker system or any other speaker in the house, as these are becoming more popular, and a speaker would make the sensor bulkier (and possibly uglier). 
+
+Here is what it looked like in the end (using a black mask and some tape to cover up the Glade controls:
+
+
 
 ## Part F. Record
 
