@@ -125,11 +125,9 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-Here are some of my first attempts at filming the video:
+Some of my first attempts at filming the video are linked below (click on the image to be taken to the YouTube video). These three clips show me learning that my initial plans for all three of those scenes would not work perfectly. In the first scene, the fridge (as mentioned earlier) does not stay open. In the second, the wrong alarm plays, and the timing with the lights is not even close to synchronized. Finally, in the third clip, I try to hide the phone alarm I use above the fridge so that I can turn it off as I shut the fridge, but not being able to (at the same time) hit the light switch was a problem (so I split this into two clips in the final version).
 
 [![Watch the video](https://img.youtube.com/vi/FQiNGfLGO_M/0.jpg)](https://www.youtube.com/watch?v=FQiNGfLGO_M)
-
-These three clips show me learning that my initial plans for all three of those scenes would not work perfectly. In the first scene, the fridge (as mentioned earlier) does not stay open. In the second, the wrong alarm plays, and the timing with the lights is not even close to synchronized. Finally, in the third clip, I try to hide the phone alarm I use above the fridge so that I can turn it off as I shut the fridge, but not being able to (at the same time) hit the light switch was a problem (so I split this into two clips in the final version).
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
