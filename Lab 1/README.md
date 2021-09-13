@@ -200,6 +200,6 @@ The reasoning for switching is that I did not see too much room for innovation o
 
 Here is the video of the final demonstration:
 
-[![Watch the video](https://img.youtube.com/vi/FQiNGfLGO_M/0.jpg)](https://www.youtube.com/watch?v=7YinQY9AZ28)
+[![Watch the video](https://img.youtube.com/vi/7YinQY9AZ28/0.jpg)](https://www.youtube.com/watch?v=7YinQY9AZ28)
 
 
