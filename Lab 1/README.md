@@ -202,6 +202,12 @@ The device works by using a sensor on the hoop that detects makes and misses and
 
 The reasoning for switching is that I did not see too much room for innovation or improvement in terms of the video-making of the previous idea. This one has the potential for mimicking sound notifications and a changing display.
 
+Here is the storyboard for this interaction:
+
+![1bstoryboard](https://user-images.githubusercontent.com/67603876/133170295-002384a0-6ecd-4a87-8d17-89cffbd530e8.png)
+
+It shows the user shooting the basketball and getting an unsatisfying-sounding notification after missing a shot, and then getting a satisfying notification when making a shot.
+
 Here is the video of the final demonstration:
 
 [![Watch the video](https://img.youtube.com/vi/7YinQY9AZ28/0.jpg)](https://www.youtube.com/watch?v=7YinQY9AZ28)
