@@ -183,6 +183,10 @@ You will be assigned three partners from another group. Go to their github pages
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+I turned my first lab in late, so I was not partnered up with anyone for feedback. However, I asked some people in the class for feedback on my own (and gave them "unofficial" feedback, as well). One piece of feedback I got was that it did not make much sense that the overhead lights should not be what actuates the notification that the fridge is still open because it is too big/annoying, especially considering the user might do that on purpose for some reason; there also is no clear way to turn the alarm off if this is the case. This is why I decided to change my idea to something that involves a smaller device that makes small sounds and is easily accessible by the user. 
+
+The other main piece of feedback followed a similar idea, but was more general. It was that the device in my video would likely set off the alarm when someone leaves the fridge open just to grab something else from the kitchen, like most people do at some point. Because of those two things, I decided it would be best if I tried a new idea for Part B of this lab.
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -203,3 +207,4 @@ Here is the video of the final demonstration:
 [![Watch the video](https://img.youtube.com/vi/7YinQY9AZ28/0.jpg)](https://www.youtube.com/watch?v=7YinQY9AZ28)
 
 
+The thumbnail of this video (image that links to the video above) is what the prototype bracelet looks like. I made it using a bracelet and sticking a circular cut of paper onto it using tape. 
