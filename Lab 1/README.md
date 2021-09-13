@@ -191,3 +191,15 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+For Part B of this lab, I decided to change my idea of what to design an interaction of. Instead of doing an alarm that reminds the user when it is left open, I decided to instead model a smart wearable bracelet that tracks misses and makes while shooting a basketball. 
+
+The device works by using a sensor on the hoop that detects makes and misses and then making a dissatisfying noise. This noise serves as a signifier that the miss registered. Contrarily, it also makes a satisfying sound when the ball goes in the hoop. The bracelet has a display on it that shows the player's stats for this shooting session, in the form of how many shots the user has made over the total number of shots the user has attempted.
+
+The reasoning for switching is that I did not see too much room for innovation or improvement in terms of the video-making of the previous idea. This one has the potential for mimicking sound notifications and a changing display.
+
+Here is the video of the final demonstration:
+
+[![Watch the video](https://img.youtube.com/vi/FQiNGfLGO_M/0.jpg)](https://www.youtube.com/watch?v=7YinQY9AZ28)
+
+
