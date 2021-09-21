@@ -7,7 +7,7 @@ For our first Pi project, we will pay homage to the [timekeeping devices of old]
 It is worth spending a little time thinking about how you mark time, and what would be useful in a clock of your own design.
 
 **Please indicate anyone you collaborated with on this Lab here.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+I worked with Bella Baidak (bb568) for this lab. Also, we took inspiration from the website https://climateclock.world/.
 
 ## Prep
 
@@ -189,6 +189,10 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
+
+We decided to make an environmental awareness clock. 
+
+[![Watch the video](https://img.youtube.com/vi/Yjg8sS0PzSI/0.jpg)](https://www.youtube.com/watch?v=Yjg8sS0PzSI)
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
