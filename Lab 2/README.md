@@ -106,4 +106,12 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+Some feedback we got is that our clock may not be the best for actually telling time; however, we did not address this feedback because telling time is not the purpose of our clock. Another piece of feedback we recieved is that it would be nice to see the 0 emmisions deadline clock alone on a seperate screen; this was a great suggestion and we added it in our new display!
 
+For the updates to our display we added a new screen displaying the 0 emisions deadline clock alone. We also incorporated the joy stick as a new piece of hardware. When on the tip screen if you swipe up or down with the joy stick a new tip on how help reach 0 emissions will be displayed. When you moved the joy stick horizontally it switches between the tip screen and just the 0 emission clock screen.
+
+To get the joystick working we used Qwiic Joystick Py libary from Github. The code for the clock is included in the screen_clock4.py file in this folder.
+
+Check out our updates in this video:
+
+[![Watch the video](https://img.youtube.com/vi/RkIFK3NXVbI/0.jpg)](https://www.youtube.com/watch?v=RkIFK3NXVbI)
