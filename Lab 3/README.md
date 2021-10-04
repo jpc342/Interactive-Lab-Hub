@@ -121,7 +121,7 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
-Here is the recording of the dialogue between me and my partner:
+Here is the recording of the dialogue between me and my partner (in a YouTube video because I could not attach an audio file to this page):
 
 [![Watch the video](https://img.youtube.com/vi/won93bKitH8/0.jpg)](https://www.youtube.com/watch?v=won93bKitH8)
 
