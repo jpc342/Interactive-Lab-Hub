@@ -109,7 +109,11 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 \*\***Please describe and document your process.**\*\*
 
+Here is the planned dialogue for my device CareBot:
+
 ![image](https://user-images.githubusercontent.com/67603876/135937569-f00dd87b-9480-45b1-bbe3-da5ec6b766b8.png)
+
+I first started with the storyboard dialogue and thought about where the user might have answers that do not fit what happened exactly in the storyboard. In those places, I put two branches so that both options would be covered. I did a good job at first making sure the dialogue was explicit enough that there are a limited number of reasonable responses, so this was not difficult.
 
 ### Acting out the dialogue
 
