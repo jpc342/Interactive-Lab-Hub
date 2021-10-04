@@ -103,15 +103,26 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+![image](https://user-images.githubusercontent.com/67603876/135937543-390e9f27-bba1-4b17-8345-692cf8e525fa.png)
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+
+![image](https://user-images.githubusercontent.com/67603876/135937569-f00dd87b-9480-45b1-bbe3-da5ec6b766b8.png)
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+Here is the recording of the dialogue between me and my partner:
+
+[![Watch the video](https://img.youtube.com/vi/won93bKitH8/0.jpg)](https://www.youtube.com/watch?v=won93bKitH8)
+
+In my plans for the dialogue, I made sure to make everything very explicit so that the user does not have to think too much about what to say to get the device to work. In the actual dialogue, though, while this did make some parts very clear according to my partner, it also put some unnecessary pressure on the user. To make things clear, I typically (as seen in the image of the dialogue above) have the device say what it intends to do and tells the user to say something to stop it if they want. This makes it unclear how long the device will wait to hear a signal from the user, and it puts some pressure on the user to say (or not say) the right thing. To fix this, either a clear indication of the time or always giving the user options would be better than just saying the device's intention and asking for acceptance or denial.
+
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
