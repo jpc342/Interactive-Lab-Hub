@@ -55,7 +55,6 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
-Trouble pushing code to repo remotely...
 
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
@@ -141,16 +140,8 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-   
-   The main things I took away from my feedback as well as just by thinking about it were that my current dialogue structure puts some pressure on the user. When the voice is asking for options beyond "yes" and "no," the pressure seems unavoidable, so to make it easier, I can display on screen some text that makes the options clearer and easier to choose between. 
-   
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-   
-   For this device, the intended use case is that the user's hands are tied or they are busy working, so the only available option for them to interact with the device is with their voice. I decided the voice sensor/microphone is the one thing I would focus on.
-   
 3. Make a new storyboard, diagram and/or script based on these reflections.
-
-
 
 ## Prototype your system
 
@@ -160,8 +151,6 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
-
-
 
 *Include videos or screencaptures of both the system and the controller.*
 
