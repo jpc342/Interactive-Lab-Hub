@@ -169,6 +169,7 @@ The "process" is written sequentially in the helper function "run()" and acts as
 
 *Include videos or screencaptures of both the system and the controller.*
 
+[![Watch the video](https://img.youtube.com/vi/zf0zVFSIvzg/0.jpg)](https://www.youtube.com/watch?v=zf0zVFSIvzg)
 
 
 ## Test the system
