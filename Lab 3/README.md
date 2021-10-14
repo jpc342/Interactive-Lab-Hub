@@ -142,8 +142,17 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+   The main piece of feedback I got was similar to my thoughts from the end of part 1 of the lab. It was that some of the options the device gives put pressure on the user to answer within a certain time frame exactly as they are supposed to. I do not want this device to put pressure on anyone, and I want the user to have the ability to give accurate answers every time. I was told I could use the display to my advantage or maybe even some indication of a timer that tells the reader how long the device is recording for when the user is prompted for a reply.
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+   I decided to just focus on vocal inputs because the intended use case of my device is in the situation where the user has their hands tied or is busy doing something. This would make it very difficult for them to use their hands or give any other type of active input to the system. Their voice is the only thing that is free in that scenario. 
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
+
+![Dialogue2](https://user-images.githubusercontent.com/67603876/137246474-e0554014-47f2-43d7-8f95-fae213b89523.PNG)
+
 
 ## Prototype your system
 
