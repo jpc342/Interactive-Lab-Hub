@@ -56,6 +56,8 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+This file can be found in name.py in the uploaded files.
+
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
 ### Speech to Text
@@ -152,7 +154,13 @@ The system should:
 
 *Document how the system works*
 
+The system works by running a sequence of interactions that involve the Raspberry Pi speaking to give the user options or a question to answer, and the user replying. Each of these interactions use techniques from part 1 of this lab, like playing sound from the speaker and taking vocal input from the user. I used these techniques to create an interaction helper function, which makes the Raspberry Pi say something, records a reply, and then repeats what the user said in the reply before moving onto the next stage of the process. The Raspberry Pi also displays different things at certain steps in order to make it easier for the user to understand what is happening and react in time.
+
+The "process" is written sequentially in the helper function "run()" and acts as the main actuator of the system. It calls on the helper functions to create vocal interactions, draw things on screen, and make the Raspberry Pi speak. Before this process is started, the current time is displayed so that the user can see when the voice initiates conversation by pointing out how late it is. Then as the interactions progress, the display changes to reflect the current step.
+
 *Include videos or screencaptures of both the system and the controller.*
+
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -160,18 +168,20 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+Most of the time, the Raspberry Pi was specific enough to give the user a good idea of what to say, so that worked well.
+
+Sometimes, the microphone would not pick up the words well, especially when I tried it on someone I know with a different accent. Also, at certain points, the user (when the intent was that they should stay silent) did not know what to do and looked confused when the correct option was to stay silent.
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+My system is relatively autonomous. When the users followed the exact options I detailed, it worked perfectly, but when they said anything else or wanted to say anything else, the system had no built in response to it, so it defaulted to a different options, which is not good.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+It takes a lot to create a totally autonomous system because of all the different things a user can say. Some NLP might be required to make it work better because that could help consolidate words (like turning "good" and "great" into both "good", etc.) and decipher a user's intent.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+One thing this device could be used for, if widespread enough, is to gather typical reactions/replies from users across devices to help train the device. If the devices follow the typical trends, it would increase its accuracy in doing what the user intends. Some other sensing modalities that could be useful with a system like this are video so that it could use Emotion Recognition; if the user is angry, maybe the device should cut what it is saying short, etc. 
 
