@@ -175,10 +175,23 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+I decided to choose the joystick as my sensor because I think the interactive/controllable nature of it (relative to the other sensors) allows for more possibilities/control, so here are 5 designs I thought would be interesting!
+
+![image](https://user-images.githubusercontent.com/67603876/138767231-6fb49a9c-2ced-4f83-8061-40229976b2ab.png)
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+Some questions are:
+
+- Although some of the designs are cool, is a joystick the best type of sensor to use? For example, for the heart rate monitor, it would be easier to just use a button.
+- How can I optimize the user experience/make the prototype the least awkward to use (e.g. holding a giant iPad-sized device instead of making a more sleek and effective design, etc.)?
+- How can I make sure to take advantage of the directionality of the joystick as well as the magnitude tracking (the numbers are smaller with less displacement of the joystick from the center)?
+- How can I optimize the display using the small displays of the TFT as well as the Qwiic Display strip so that the display isn't small compared to the device and it is easy to tell where things should be displayed?
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+I have decided to choose the "Guess the Image" design to prototype, as I think it has good answers to the questions above and uses the joystick in a cool way.
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
