@@ -304,3 +304,8 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+Here is the video of my prototype:
+
+[![Watch the video](https://img.youtube.com/vi/6MwS8T1nqOk/0.jpg)](https://www.youtube.com/watch?v=6MwS8T1nqOk)
+
+
