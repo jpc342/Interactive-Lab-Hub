@@ -256,6 +256,8 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+![image](https://user-images.githubusercontent.com/67603876/138933593-a6eb5a0a-a6c2-486a-b3ff-0fe825977e61.png)
+
 
 LAB PART 2
 
