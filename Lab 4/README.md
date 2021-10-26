@@ -233,9 +233,22 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+![image](https://user-images.githubusercontent.com/67603876/138790462-e67856f1-ceb2-4097-ab9e-bb67d1433ce9.png)
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+Some questions these designs bring up:
+- Design 1: How can I make the design less awkward and more portable?
+- Design 2: How can I make sure the top part of the "card" stays up and doesn't get weighed down too much to hold its shape?
+- Design 3: Can I fit everything in this design? Will I be able to combine the functionality with ergonomics?
+- Design 4: How would I hide the Raspberry Pi in this case? Do I want the hands to feel so separate (like a Nintendo Wii controller)?
+- Design 5: How do I fit all the components where they can all be seen (in intuitive places) but also be easy to hold and carry around? This project is intended to be a quick game the user can play wherever they are quickly and easily, so portability and convenience are important.
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+
+I chose the controller design!
+
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
