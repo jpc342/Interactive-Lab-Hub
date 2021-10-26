@@ -247,10 +247,12 @@ Some questions these designs bring up:
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
-I chose the controller design!
+I chose the greeting card design!
 
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The reason I chose this design is because of the intention of the device. It is meant to be a portable game, so it must be easy to hold and use. It somewhat follows the designs of the old Nintendo Gameboy and the new Samsung foldable phones. For this prototype however, I am not able to separate the full PiTFT screen from the Raspberry Pi, so the design will have to be bigger than it would be in non-prototype form. I will try to keep it as small as possible, though. Also, since I do not have another touchscreen available and the port of the PiTFT is taken by the joystick, I will have to keep the "option selection" (which is the part of the device that records what the user actually guesses what the image is) as a non-functioning piece of this device for now. One other thing to consider is that I will need a way to keep the Raspberry Pi attached because I think it is too heavy to be taped on; one option I could end up using is rubber band (this is the option I ended up using). 
 
 Build a cardbord prototype of your design.
 
