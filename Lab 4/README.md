@@ -304,11 +304,11 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
-I coded the interaction with the joystick using the sample code given and using the calculations pictured below to figure out the "sensitivity" of the joystick in terms of how fast it scrolls / moves around the image on screen.
+I coded the interaction with the joystick using the sample code given and using the calculations pictured below to figure out the "sensitivity" of the joystick in terms of how fast it scrolls / moves around the image on screen. 
 
 ![image](https://user-images.githubusercontent.com/67603876/139147337-a95f1b58-74c2-4d5f-922f-3d12eb340ed9.png)
 
-Here is the video of my prototype:
+The code is in the "iguess.py" file. Here is the video of my prototype:
 
 [![Watch the video](https://img.youtube.com/vi/6MwS8T1nqOk/0.jpg)](https://www.youtube.com/watch?v=6MwS8T1nqOk)
 
