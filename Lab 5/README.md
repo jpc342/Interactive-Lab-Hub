@@ -100,6 +100,30 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+Contours:
+
+![Contours](https://user-images.githubusercontent.com/67603876/140829420-de788b71-650c-4229-b9b8-6ae4cedb53bc.PNG)
+
+One application that could take advantage of what Contours does is one that detects handwriting. The contours could be used to discover the edges of writing. One potential application of this could be to have glasses or some sort of headwear that watches as the user takes notes on a notebook, then automatically uses contours to do some kind of edge detection. This would make the edges of the writing clearer, so that it would be easier to to determine what the letters say automatically.
+
+Face detection:
+
+![Face-detection](https://user-images.githubusercontent.com/67603876/140829500-292ff6dc-0678-4c59-8b6e-8586b85b88d7.PNG)
+
+A design that might use this well is a webcam on a computer that detects faces, and (if it were a little more accurate this would work better) when the user starts to drift off into sleep, it would detect that flickering or shutting of the eyes and tell the user to go to sleep or get off the computer.
+
+Optical flow:
+
+![Optical-flow](https://user-images.githubusercontent.com/67603876/140829531-ea9d8d78-0c06-4c71-8f5a-9d2a3c87c0fe.PNG)
+
+An application that would use this effectively is a form-tracker that can help a user analyze their form while performing some action. This could be tracking their feet while running, their hands while shooting a basketball, or other things where the specific motion and trajectory of a body part are very important.
+
+Object detection:
+
+![Object-detect](https://user-images.githubusercontent.com/67603876/140829515-330cb63d-3412-4e62-bac4-15b276993db9.PNG)
+
+One design that could use this effectively is to have an overhead camera that monitors either the floor, a table, or counterspace, and when there are "too many" objects lying there, it would remind the user to clean up, so that things do not pile up.
+
 #### MediaPipe
 
 A more recent open source and efficient method of extracting information from video streams comes out of Google's [MediaPipe](https://mediapipe.dev/), which offers state of the art face, face mesh, hand pose, and body pose detection.
