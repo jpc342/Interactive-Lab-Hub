@@ -160,8 +160,11 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
 
-(You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
+![Hand-pose](https://user-images.githubusercontent.com/67603876/140834543-d4ef348d-5803-4feb-8e24-0855c33d5bfd.PNG)
 
+This position based approach gives us the opportunity to create interactions that are AR/VR-like. Detection of the hand can create the possibility of being able to control things like music volume, viewing and moving images that overlay on the reality that the user sees. The pinching can be used to "pick up" or select objects in order to move them, open menus, or just track one point around the screen (that last application could be used for something like writing on your reality with a virtual pen, where when the user pinches, the pen starts drawing, and when the user stretches their fingers back out, the pen stops drawing).
+
+(You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
 
 #### Teachable Machines
