@@ -266,6 +266,10 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+Application without the physical prototype:
+
+[![Watch the video](https://img.youtube.com/vi/99mF6zps-qk/0.jpg)](https://www.youtube.com/watch?v=99mF6zps-qk)
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
