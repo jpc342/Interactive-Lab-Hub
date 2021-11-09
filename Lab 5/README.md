@@ -199,6 +199,15 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
 
+Here is the program's output when I am not wearing a mask:
+
+![PPE1](https://user-images.githubusercontent.com/67603876/140838148-92ffe05e-30b7-4ea4-ae69-3e7f42e91d34.PNG)
+
+Then, I put on a mask, and here was the new output:
+
+![PPE2](https://user-images.githubusercontent.com/67603876/140838156-b0a4cd62-0212-4037-8e01-cbb3d29e4382.PNG)
+
+Teachable Machines offers unique capabilities to train and retrain the model on new data. Not only can this be used for the obvious use of the ppe_detection one where the a camera can be used to detect if people are wearing masks or not, but this type of Teachable Machine can be used to do things like detect what comes up to, for example, someone's front door in view of a security camera. This can provide classification capabilites, which is much less available and easy with OpenCV or MediaPipe.
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 
