@@ -275,3 +275,7 @@ Application without the physical prototype:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+[![Watch the video](https://img.youtube.com/vi/wKl5hLVCYLA/0.jpg)](https://www.youtube.com/watch?v=wKl5hLVCYLA)
+
+
