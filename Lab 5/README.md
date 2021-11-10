@@ -247,9 +247,13 @@ For example:
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+   No, the user would not be aware right away of the capabilities and shortcomings of the system, like the hand detection not being as good close to the edges than in the middle, etc.
+2. How bad would they be impacted by a miss classification?
+   The worst thing that could happen is a false-positive sign of a pinch and start drawing an errant line where there is not supposed to be one.
+3. How could you change your interactive system to address this?
+   Adding instructions on screen would only clutter it, and it would hide some of the video feed which is very important to have. One thing I could consider for this is an eraser function.
+4. Are there optimizations you can try to do on your sense-making algorithm?
+   I can try to delete as many extraneous commands and statements in the code to try and speed up the framerate as much as possible so that the drawing is as smooth as possible. With how the hand detection algorithm works and the processing power of the Raspberry Pi, though, I am not sure it will be able to get to a market-level smoothness.
 
 ### Part D
 ### Characterize your own Observant system
@@ -257,18 +261,26 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+  AirWrite can be used for making small notes and drawing things seemingly on top of the surfaces around the user.
 * What is a good environment for X?
+  A good environment for AirWrite is on a video call, where the camera is built into the device. Another would be a livestream or tutorial video for a hands-on task, where the person making the video can make marks and notes with their hands while doing something to better point out things they look for.
 * What is a bad environment for X?
+  A bad environment for AirWrite is in situations where someone is trying to take a lot of notes quickly, like for a student. That is not what this system is built for.  
 * When will X break?
+  In the above situations, also when the hand nears the edges of the screen.
 * When it breaks how will X break?
+  It will make mistakes if the hand moves too fast, or if there is too much writing on screen, it will appear too cluttered.
 * What are other properties/behaviors of X?
 * How does X feel?
+  AirWrite feels like a fun tool, not extremely efficient, but like something to enhance virtual conversations.
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
 Application without the physical prototype:
 
 [![Watch the video](https://img.youtube.com/vi/99mF6zps-qk/0.jpg)](https://www.youtube.com/watch?v=99mF6zps-qk)
+
+Clearly, the writing is somewhat slow, so that is why I defined the best and worst environments as above. 
 
 ### Part 2.
 
@@ -277,5 +289,11 @@ Following exploration and reflection from Part 1, finish building your interacti
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
 [![Watch the video](https://img.youtube.com/vi/wKl5hLVCYLA/0.jpg)](https://www.youtube.com/watch?v=wKl5hLVCYLA)
+
+The different applications shown in the video above show some of the good applications of AirWrite. Some of the notes written are things that could be part of a FaceTime call between the user and someone else when they want to either draw something or help the other understand if their hearing is impaired in any way. Another application shown is a rough rendition of what a virtual tutoring/teaching session could look like with AirWrite. 
+
+In terms of prototyping this design, my original intent was to use a cut out of a frame of glasses to mount the webcam onto and hide the wire behind it. However, the webcam we are using was far too bulky to fit into the frame or just not dig into the skin of the user. It also weighs too much to wear on one's nose like that. Instead, I chose to insert it into a hat, to mimic a GoPro camera setup. This design would make sense more for the virtual first-person teaching session than for the FaceTime application. However, the main thing I wanted to get out of this was to see how people interacted with the actual writing, which this way of prototyping it works fine for.
+
+Future work: Some of the feedback I got on this design (some from before the second part and some after) included that I should build in an eraser functionality to the opposite hand or to a different hand gesture. Another related design flaw is that those who used this noted there is no "clear" button anywhere to clear all text from screen or undo an errant stroke with the AirWrite pen. One other thing mentioned was that when "writing" while standing and looking forward instead of sitting looking down, the user has to extend their arms almost fully out, which makes it difficult to keep their arms still. 
 
 
