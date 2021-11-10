@@ -215,16 +215,6 @@ Teachable Machines offers unique capabilities to train and retrain the model on 
 #### Filtering, FFTs, and Time Series data. (optional)
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
 
-Using the accelerometer, try the following:
-
-**1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
-
-**2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
-
-**3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
-
-**\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
-
 
 ### Part B
 ### Construct a simple interaction.
@@ -234,6 +224,15 @@ This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+
+I have decided to pick the MediaPipe hand pose model. 
+
+Two interactions I am considering making are 
+- (1) a virtual piano, which plays notes based on what fingers the user moves instead of where they are placed. In this case, the user would simply put their hands on camera and have ten notes (one for each finger) available to play based on if those fingers make the motion of playing a piano key. The problem here is that the user would need to be able to move each finger individually without much motion in other fingers, which, especially for the ring finger for most people, is very difficult.
+- (2) a tool that can help a user write and draw virtually on any surface in an augmented reality sort of way. In this case, the user would wear the camera in some way, perhaps with a AR headset or with a camera built into a hat, and use the pinching function to denote where to draw on the video of their surroundings. The difficulty here will likely be making the program smooth enough to handle drawings so that they are still easily discernable and not cluttered and blocky.
+
+In order to decide, I thought about which one was more feasible. I tried to design a camera mount that would make it easier to see which fingers are moving the most, but the camera angle that allows me to do this (parallel with the surface the hands are resting on) does not allow a good enough view of the hands for the program to find them. I figured it would be easier to instead build something like a glasses frame that houses the camera like Google Glass and to do the drawing, since pinch detection is doable as shown in one of the given example. 
+
 
 ### Part C
 ### Test the interaction prototype
