@@ -237,12 +237,18 @@ In order to decide, I thought about which one was more feasible. I tried to desi
 ### Part C
 ### Test the interaction prototype
 
+I tested this by attaching the camera to a prop crown I had lying around and keeping a rectangular tape boundary on a table which represents the camera's field of view. When the user pinches I start mimicking their drawing on a physical "camera feed." 
+
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+   The system succeeds when the user is slow and deliberate with their drawings, and when they keep in mind where the boundaries for their hands are.
+2. When does it fail?
+   The system fails when the user moves their hands too fast, or loses track of where their hands are by looking at the camera feed instead of their hands.
+3. When it fails, why does it fail?
+   It fails because the system (me in the tests) is not fast enough to handle sudden movements, and the camera has a fixed zoom and range.
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+   Other scenarios that could cause problems are when the user's hands cross or are at angles that make it hard for the camera (me in the testing) to see whether or not they are pinching or not.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
