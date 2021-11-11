@@ -293,6 +293,8 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
+The code for this project can be seen in the file air_write.py. Here is the video of it working:
+
 [![Watch the video](https://img.youtube.com/vi/wKl5hLVCYLA/0.jpg)](https://www.youtube.com/watch?v=wKl5hLVCYLA)
 
 The different applications shown in the video above show some of the good applications of AirWrite. Some of the notes written are things that could be part of a FaceTime call between the user and someone else when they want to either draw something or help the other understand if their hearing is impaired in any way. Another application shown is a rough rendition of what a virtual tutoring/teaching session could look like with AirWrite. 
