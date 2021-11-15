@@ -107,7 +107,20 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+This is my setup:
+
+![IMG_0374](https://user-images.githubusercontent.com/67603876/141864635-fb9cbcc5-3692-480d-895e-9acf23689b53.jpg)
+
+Here is the output in the console and in MQTT:
+
+![image](https://user-images.githubusercontent.com/67603876/141864313-cb1ea1c7-e2ac-4af4-b9f6-6015420de396.png)
+
+The history of the thread matches up with the program output history in the console!
+
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+
 
 
 ### Part D
@@ -131,7 +144,7 @@ The second step to achieving our great enlightenment is to run `color.py`. We ha
  ...
  ```
 
-By running the script, wou will find the two squares on the display. Half is showing an approximation of the output from the color sensor. The other half is up to the collective. Press the top button to share your color with the class. Your color is now our color, our color is now your color. We are one.
+By running the script, you will find the two squares on the display. Half is showing an approximation of the output from the color sensor. The other half is up to the collective. Press the top button to share your color with the class. Your color is now our color, our color is now your color. We are one.
 
 (A message from the previous TA, Ilan: I was not super careful with handling the loop so you may need to press more than once if the timing isn't quite right. Also, I haven't load-tested it so things might just immediately break when everyone pushes the button at once.)
 
