@@ -184,3 +184,4 @@ As the video shows, when one party speaks into their mic, that text appears on t
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
+In this lab, I worked with Bella Baidak (bb568) and Soul Choi (ec897). 
