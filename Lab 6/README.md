@@ -156,6 +156,8 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 The code for this script can be seen in the file disp_colors.py. Here is the video of it working:
 
+https://user-images.githubusercontent.com/73661058/141871537-41e7503b-0aef-4821-bb60-bacd8d8d7ba3.mov
+
 
 ### Part E
 ### Make it your own
@@ -164,11 +166,21 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+We wanted to use the ability to send messages between Raspberry Pi's to create a system where two people can communicate without being locked into either speaking or typing. Having the ability to use and receive both text and speech would allow for more accessibility when it comes to situations like drive-throughs and other places where one has to be able to speak and hear.
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+Here is a short video of it working. 
+
+[![Watch the video](https://img.youtube.com/vi/zPa84EjSBIg/0.jpg)](https://www.youtube.com/watch?v=zPa84EjSBIg)
+
+As the video shows, when one party speaks into their mic, that text appears on the other Pi, so that the owner of that Pi can read instead of having to listen to the message. This is half of a system that would allow anyone with problems hearing or speaking to communicate, specifically here in a drive-through. The other half that would be necessary for this full system would be the ability to type a message and have it be spoken on the other end through text-to-speech and on the speaker. 
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
