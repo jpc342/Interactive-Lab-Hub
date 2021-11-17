@@ -173,9 +173,11 @@ We wanted to use the ability to send messages between Raspberry Pi's to create a
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
-
+In this scenario, the users are the person in a car in a drive-through and the cashier behind the window of the restaurant. The inputs would come from a microphone and a keyboard on both sides, giving each user the option to either speak or type their message, where the output is at the other side, where the message is both played (the audio) and converted to text to be read.
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+
+With what we were able to build, it would not be readily clear what the system does yet. In order to make this clear, the device would have to look similar to a phone and have clear instructions that state to keep looking at the phone instead of put it up to the ear.
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
