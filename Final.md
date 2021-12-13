@@ -88,13 +88,13 @@ The spectrum of the perception of a cat based on looks is quite large, ranging f
 
 So we decided to give the cat a fluffy fur outer shell. We went to a GoodWill in the Upper East Side and found a fur sweater for only $7. The way we tailored this sweater is discussed later.
 
-#### Appearance / Shape and Structure
-
 ![IMG_3099](https://user-images.githubusercontent.com/42717070/145835388-9e21ce18-d6ba-4844-b9fa-bf71eb66b09e.jpg)
 
-To create the cats cardboard skelton, we found some 3D model puzzles online and used to a laser cutter to cut them pieces. This process took us much time and experimentation. The first cat 3D model puzzles we found looked nice but when cut there was way too many pieces and we struggled to put it together. This lead us to finding a new model with less pieces that was more managable for our project. Once we selected our model we had to experiment with cardboard thickness to find the best possible skeltons for our kitties.
+#### Appearance / Shape and Structure
 
-Complicated cat 3D model puzzle:
+To create the cats cardboard skelton, we found some 3D model puzzles online and used to a laser cutter to cut them pieces. This process took us much time and experimentation. The first cat 3D model puzzles we found looked nice but when cut there were  too many pieces, and we struggled to put it together. This led us to look for a new model with less pieces that was more manageable for our project. Once we selected our model, we had to experiment with cardboard thickness to find the best possible skeletons for our kitties.
+
+Over-complicated cat 3D model puzzle:
 
 <img width="548" alt="Screen Shot 2021-12-12 at 10 56 34 PM" src="https://user-images.githubusercontent.com/73661058/145750070-ba868da3-1f17-4aed-983a-bf56a8d5b873.png">
 
@@ -102,20 +102,36 @@ Simpler cat 3D model puzzle we used:
 
 ![IMG_7064](https://user-images.githubusercontent.com/73661058/145750078-69435904-f33b-41a9-aba5-3f87c68b9e88.jpg)
 
+Since the models we found online didn't have the right scale that we wanted, we had to rescale the .stl file. In this process, the gap left for fitting pieces in got proportionally bigger, which we first thought did not work with the thin cardboard pieces we had. However, having these larger gaps turned out to be useful in the end to allow more space for servo motor and wires. We just had to add more glue than was expected to fill in the gaps and make sure the structure was stable.
+
+#### Function / Movements with the servo motors
+
 Once we had our cardboard skeletons created, we added in the servo motors and tested out the movement of our kitties as skelton cats. Our design is built around a few central frame pieces, so to get our servos to be in the right spots, we had to attach them to one of those central pieces. This was done easily with tape (instead of glue to avoid complications of glue directly on electronics), but the motors are slightly too large to fit between two central pieces in our puzzle piece model. To fix this, we cut holes in the next piece over so that the motors would just fit through them without messing up the structural integrity of the cat. There were two servo motors per cat that had to be attached, one at the arm and one at the tail. 
 
-As seen in the image directly above, the edge piece of the cardboard model includes both left legs in one piece (we call the front leg the "arm" for simplicity's sake). Consequentely, we first detached the arm of the cat from that edge piece of the model so that it could be moved separately from the left leg. We then cut a gap in the skeleton as mentioned above to place the motor. We also had to cut a small hole in the original piece that held the arm because just the small part of the motor that holds the moving attachment had to poke through. Lastly, we hot glued the detached cat arm to the attachment of the motor, so that the arm can move on its own outside the stationary frame, giving the illusion of a shoulder joint. For the tail's motor, we started by completely removing the cardboard tail that was part of the original model, and we replaced it with a more realistic looking tail, which consisted of yarn wrapped around a wire to hold its shape. Then, we placed the motor in a similar way to the arm motor, and that was enough for the tail to work.
+As seen in the image directly above, the edge piece of the cardboard model includes both left legs in one piece (we call the front leg the "arm" for simplicity's sake). Consequently, we first detached the arm of the cat from that edge piece of the model so that it could be moved separately from the left leg, the concept and initial testing aspects of this shown in this image:
+
+![IMG_8330](https://user-images.githubusercontent.com/42717070/145839575-9ac0832f-a893-439b-a085-ab8c7ef84199.jpg)
+
+As shown, we experiemented with the range of the movements with a thinner paper. Since we used a 3D puzzle for the skeleton, it had multiple layers. It was important to mark the precise position of the servo motor throughout all the layers so that we can make sure the movement of the arm does not hit the cat's face and prevent similar issues.
+
+We then cut a gap in the skeleton as mentioned above to place the motor. We also had to cut a small hole in the original piece that held the arm because just the small part of the motor that holds the moving attachment had to poke through. Lastly, we hot glued the detached cat arm to the attachment of the motor, so that the arm can move on its own outside the stationary frame, giving the illusion of a shoulder joint. For the tail's motor, we started by completely removing the cardboard tail that was part of the original model, and we replaced it with a more realistic looking tail, which consisted of yarn wrapped around a wire to hold its shape. Then, we placed the motor in a similar way to the arm motor, and that was enough for the tail to work. The taped servo motor and the tail on the central piece of cardboard is shown here:
+
+![IMG_8333](https://user-images.githubusercontent.com/42717070/145839565-64e6bc63-8586-413f-96ee-c61f93fc9b2e.jpg)
 
 Photos of this stage:
 
 <img width="829" alt="Screen Shot 2021-12-12 at 11 09 28 PM" src="https://user-images.githubusercontent.com/73661058/145751091-66acae65-2b39-4e8b-8f7c-f1fc218a6c93.png">
 <img width="556" alt="Screen Shot 2021-12-12 at 11 09 58 PM" src="https://user-images.githubusercontent.com/73661058/145751120-eb435b79-7ca3-4506-8318-b09975b34ad5.png">
 
+#### Function / Capacitive touch sensors
+
 Next we added the same conductive strips that were used in the 2D model to the 3D skeleton for the touch sensors, which we attached to alligator clips that ran through the skeleton out the bottom. Before doing this, we did some testing with these strips because our plan was to put these sensors underneath the fur of the cat because they are capacitive, so we thought they may work. To test this, we just tried putting different types of materials, as well as the fur we chose (details discussed later) on top of the strips and seeing if we could just sense a touch. During our testing, this seemed to work with no problems, so after we were convinced that it would work, we went through with the plan. Here is what this looked like:
 
 ![image](https://user-images.githubusercontent.com/67603876/145869865-0fa5d3b0-c548-41f0-b22c-aa4f1e56e9e9.png)
 
-The next step was to cover the skeletons in some type of "fur" so that the cat would feel nice to pet. For the cat fur we used an old sweater we thrifted from GoodWill. To get a cat shape from the fur we first created a pattern with thinner fabric by testing out different shapes and wrapping methods on the skeleton, and once we found the best shape, we cut it out of the real  fur material (the sweater). Lastly, we hot glued the fur coat on to the cat skeltons.
+#### Appearance / Fur and outer shell
+
+The next step was to cover the skeletons in some type of "fur" so that the cat would feel nice to pet. For the cat fur we used the old sweater we thrifted from GoodWill as mentioned above. To get a cat shape from the fur, we first created a pattern with thinner fabric by testing out different shapes and wrapping methods on the skeleton, and once we found the best shape, we cut it out of our fur-like material (the sweater). Lastly, we hot glued the fur coat on to the cat skeltons.
 
 Fabric pattern for fur:
 
@@ -127,21 +143,30 @@ Cat covered in fur:
 
 <img width="529" alt="Screen Shot 2021-12-12 at 11 32 57 PM" src="https://user-images.githubusercontent.com/73661058/145752889-6070a3bf-a233-4c88-8f0a-3ef64048f2d8.png">
 
-[Add more details here and any more photos you have]
-
 After putting the fur on, we decided to test that the sensors worked one more time. It did work at first after the fur was put on and glued down, but at some point, the touch sensors completely stopped working under the fur, and the only way to trigger them after this point was by either poking through the fur with a conductive needle, or reaching underneath the fur to touch the strips directly. We speculated that having the fur taut and attached onto the sensors for an extended period of time meant the touch sensors may always be activated for some reason, so any further activation by touching the fur would not cause any change in sensor output. Another possible reason is that the fur and the strips had some long-term interaction electrically, which may have brought the fur to a point were any touch would not change its electromagnetic structure enough to change what the sensor detects. In any case, we experimented with cutting holes in the fur (which did not work reliably), having small conductive bumps that connected directly to the strips (which ruined the realistic and comforting sensation when petting the cats), and a few other attempts to fix this. We finally settled on instead wrapping one conductive tape strip around the furr, which were placed where the user is most likely to touch them while petting the intended areas of the cat, and connecting those directly to the touch sensors. These brass-colored strips can be seen in the final images of the working cats. This design worked out quite well, as there were rarely any times where the user was unable to hit the right spots to cause an interaction with the cat.
 
-The last step to the cats appearance was to add the heart light for interaction between the two cats. To do this we taped the LED lights to the chest of the cats, covered them in a thin cotton-like fur to spread the light to a shape and size we wanted, and duct taped a paper heart on top of the chest furr.
+#### Function / Warm up the heart
+
+The last step to the cats appearance was to add the heart light for interaction between the two cats. To do this we taped the LED lights to the chest of the cats, covered them in a thin cotton-like fur to spread the light to a shape and size we wanted, and duct taped a heart on top of the chest furr.
 
 Heart light:
 
 <img width="509" alt="Screen Shot 2021-12-12 at 11 33 32 PM" src="https://user-images.githubusercontent.com/73661058/145752955-b879156c-d9de-4477-85e1-e24a95d62769.png">
 
-Under the cats we added a pedestal for cat to stand on. This served to stablize the cat, allowing it to stand, as well as hide the Raspberry Pi, senors, speaker, and other electronics from the user. We re-used a box we found in a recycling bin, and cut it to do exactly what we needed. Specifically, we needed the box to have one side open faced, so that wires like the power chord can come out of it and so that we can reach in to fix or adjust anything if needed. We also needed small holes on top of the pedestal so that wires that run through the bottom of the cat skeleton can come through the box and connect to the electronics within the box. In order to do this in the most elegant way, we taped all the wires that run through the cat to either of the right legs of the cat and cut the holes in the box to be right next to those legs. This allowed us to hide the wires from the user, which is a major part of creating that realistic experience. We made two of these pedestals by cutting the recycled box in half, cutting the holes we needed by precisely measuring their sizes and positions, and cutting a separate piece of cardboard to make the sides that were left open by cutting the original box in half. We then cut some tablecloth-like fabric to go over the box for aesthetic purposes, which can also be seen in the final images of the working cats.
+Because of the standing shape of the cat, the heart had to be positioned down in the chest. Since we designed it to be placed on a table and the user will likely be interacting with it while standing, the visibility of the heart light from the user was problematic. To solve this issue, we experimented with different material (A yarn we found in the MakerLab) to amplify the lighting with diffusing effect.
+
+![IMG_8363](https://user-images.githubusercontent.com/42717070/145840052-d333aa12-4eed-4dcf-9a43-bc69f551ab88.jpg)
+
+We kept the yarn for the entire chest but used a cutout sticker to emphasize the heart shape for our final design.
+
+#### Appearance / Pedestal for the cats and electronics
+
+Under the cats, we added a pedestal for cat to stand on. This served to stablize the cat, allowing it to stand, as well as hide the Raspberry Pi, senors, speaker, and other electronics from the user. We re-used a box we found in a recycling bin, and cut it to do exactly what we needed. Specifically, we needed the box to have one side open faced, so that wires like the power chord can come out of it and so that we can reach in to fix or adjust anything if needed. We also needed small holes on top of the pedestal so that wires that run through the bottom of the cat skeleton can come through the box and connect to the electronics within the box. In order to do this in the most elegant way, we taped all the wires that run through the cat to either of the right legs of the cat and cut the holes in the box to be right next to those legs. This allowed us to hide the wires from the user, which is a major part of creating that realistic experience. We made two of these pedestals by cutting the recycled box in half, cutting the holes we needed by precisely measuring their sizes and positions, and cutting a separate piece of cardboard to make the sides that were left open by cutting the original box in half. We then cut some tablecloth-like fabric to go over the box for aesthetic purposes, which can also be seen in the final images of the working cats.
 
 [In general add any photos or details I missed from this section]
 
 ## Final Device Design
+
 Final look:
 
 <img width="528" alt="Screen Shot 2021-12-12 at 11 39 15 PM" src="https://user-images.githubusercontent.com/73661058/145753356-41e7d3c1-1dbd-4fe7-8f7a-37ed99b667da.png">
@@ -158,5 +183,22 @@ Us with the cats :blush: :
 
 <img width="517" alt="Screen Shot 2021-12-12 at 11 40 29 PM" src="https://user-images.githubusercontent.com/73661058/145753457-aa2a2e7b-e35a-41ef-ba3f-67a6326bb5cb.png">
 
-[Add any more photos for photos and videos]
-[any comments about peoples reactions and interacts with the cats ]
+## Showtime!
+
+- Meeting humans at the IDD class:
+
+https://user-images.githubusercontent.com/42717070/145840834-05af1ffe-5cc3-4e0d-8301-7d49253344c6.MOV
+
+- Purring at the Open Studio:
+![IMG_8448](https://user-images.githubusercontent.com/42717070/145841007-07cc3c51-e4b5-4dd9-8efa-295c5c7562e0.jpg)
+
+https://user-images.githubusercontent.com/42717070/145842269-49b2aa1d-128c-4981-b328-73069f37d2a7.MOV
+
+This person in the video above was petting the cat very firmly and stroking its back all the way through the end of the tail, which is how many people pet a real cat. It was as if she was touching her own cat at home. It was thrilling to see some people interacting with our robot cats in the same way they would with a real one and seeing their reactions to how our cats interacted with them.
+
+-
+Other best comments from the users we met at the Open Studio:
+
+- "I'm alergic to cats. OMG NOW I CAN TOUCH THE CAT"
+- "This is addictive"
+- "Can I buy this?"
