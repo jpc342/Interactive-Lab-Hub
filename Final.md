@@ -30,7 +30,8 @@ The appearance of the cats was made up of:
 
 ### Design Considerations
 
-[Appearance]
+Appearance
+
 - Overall look and feel: Cute and soft. Our goal is to cause a pemotional reaction from the user. We want to recreate the soothing and joyful experience with a cat, not a scary one.,
 - Shape and posture: Seated, because it gives more stability in the shape and we imagined it to be more natural for cat to move her arm while seated.
 - Realistic or cartoonish: Cartoonish, it might look scary or creepy with a realistic features. We drew few realistic eyes and knew right away it is going to scare people.
@@ -39,7 +40,8 @@ The appearance of the cats was made up of:
 - We discussed the look and feel of the kitties as well, but it did not really matter for the 2D prototyping. We focused on the functionality check.
 
 
-[Functions]
+Functions
+
 - Initiating interaction: We considred face recognition (when human stares at the cat from the front) or body recognition (when waving at the cat) or proximity (when near by) or captive (when touched). We decided to go for the touch first and build the wave recognition part if time allows. We dropped the face recognition and proximity because we imagined it will be hard to control the background at the showcase(open studio).
 - Interaction flow: HUMAN TOUCH -> HAPPY CAT -> TOUCHES BACK is our main flow for the interaction. When human touches the cat, the cat will purr, wag her tail, or meow to indicate that she's feeling the touch and happy about it. The cat can also move her arm in attempt to touch the person back.
 - Locations of touch sensors: We tested with random students at Tata to see where do they naturally want to touch a cat. Mostly back, paw and sometimes the face. From this, we decided to put most of our sensors on the back.
@@ -50,7 +52,7 @@ The appearance of the cats was made up of:
 
 To start building these two cats, we first created a simple 2D cardboard verison of the cats to test the technology would work well together and to prototype user interaction. The 2D verison of the cats used the servo motor to move a cardboard arm of the cat when it is touched. The 2D cats also purr when they are touched, and they show the connection between the two cats by shining a red LED light through a paper heart when both are interacted with at the same time.
 
-This is what the 2D cats look like:
+Appearance of the two cats:
 
 <img width="975" alt="Screen Shot 2021-12-12 at 10 27 58 PM" src="https://user-images.githubusercontent.com/73661058/145747859-02a0b7d6-1545-4ae9-8d12-89e53d377581.png">
 
@@ -76,7 +78,19 @@ As seen in the above images, the capacitive touch sensors were connected by alli
 
 ### 2D to 3D
 
-After validating that all of our technological components worked well together and testing the interactions of our 2D cats with some peer users we began constructing the 3D cats. Our plan to create these 3D cats was to created a cardboard skeleton for the cats, place wires for sensors and servo motors in the skelton and cover the cardboard skelton with fur to give a cat like appearance and feel. In our user testing, we found that people loved the idea of the interactive robotic pet, but the unrealistic look of the 2D prototype was certainly a factor in making the experience more artificial than it should be. For this reason, we knew we had to really create a realistic-enough looking cat and find a way to integrate our technology into it; otherwise, our final product would not have the desired effect of bringing people comfort.
+After validating that all of our technological components worked well together and testing the interactions of our 2D cats with some peer users we began constructing the 3D cats. Our plan to create these 3D cats was to created a cardboard skeleton for the cats, place wires for sensors and servo motors in the skelton and cover the cardboard skelton with fur to give a cat like appearance and feel. In our user testing, we found that people loved the idea of the interactive robotic pet, but the unrealistic look of the 2D prototype was certainly a factor in making the experience more artificial than it should be. For this reason, we knew we had to really create a realistic-enough looking 3D cat and find a way to integrate our technology into it; otherwise, our final product would not have the desired effect of bringing people comfort.
+
+#### Appearance / Look and Feel
+
+![IMG_3095](https://user-images.githubusercontent.com/42717070/145834958-7f998966-c668-440f-bae7-3620ca3dcc71.jpg)
+
+The spectrum of the perception of a cat based on looks is quite large, ranging from ominous and creepy to comforting and cute. We want to give users a soothing and joyful experience with connected cat, something they want to touch when they miss friends or feeling lonely, not to be scared with it.
+
+So we decided to give the cat a fluffy fur outer shell. We went to a GoodWill in the Upper East Side and found a fur sweater for only $7. The way we tailored this sweater is discussed later.
+
+#### Appearance / Shape and Structure
+
+![IMG_3099](https://user-images.githubusercontent.com/42717070/145835388-9e21ce18-d6ba-4844-b9fa-bf71eb66b09e.jpg)
 
 To create the cats cardboard skelton, we found some 3D model puzzles online and used to a laser cutter to cut them pieces. This process took us much time and experimentation. The first cat 3D model puzzles we found looked nice but when cut there was way too many pieces and we struggled to put it together. This lead us to finding a new model with less pieces that was more managable for our project. Once we selected our model we had to experiment with cardboard thickness to find the best possible skeltons for our kitties.
 
