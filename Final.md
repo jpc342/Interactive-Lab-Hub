@@ -46,7 +46,6 @@ Back view of the cats:
 
 <img width="546" alt="Screen Shot 2021-12-12 at 10 29 19 PM" src="https://user-images.githubusercontent.com/73661058/145747959-8223169d-07ca-407b-9071-c8cad17d4071.png">
 
-[Perhaps talk more about how the tech of the cats works]
 To make this technology work, we had to integrate several different functions into the program because a making something "interactive" almost by definition means there must be more than one type of action from the user to start an interaction and more than one type of reaction from the device in response. For each individual cat, we used capacitive sensors, speakers, servo motors, and MQTT communication. Here is a diagram of the full system architecture:
 
 ![image](https://user-images.githubusercontent.com/67603876/145860922-fc8fa2b2-c298-4d65-b751-c4fdadccd171.png)
