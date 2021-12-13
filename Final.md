@@ -79,14 +79,15 @@ Next we added the same conductive strips that were used in the 2D model to the 3
 
 ![image](https://user-images.githubusercontent.com/67603876/145869865-0fa5d3b0-c548-41f0-b22c-aa4f1e56e9e9.png)
 
-covered the skeltons in furr. For the cat furr we used an old sweater we thrifted from GoodWill. To get a cat shape from the furr we first created a pattern with thinner fabric and then cut it out of the thick furr material. Lastly, we hot glued the furr coat on to the cat skeltons.
-Fabric pattern for furr:
+The next step was to cover the skeletons in some type of "fur" so that the cat would feel nice to pet. For the cat fur we used an old sweater we thrifted from GoodWill. To get a cat shape from the fur we first created a pattern with thinner fabric by testing out different shapes and wrapping methods on the skeleton, and once we found the best shape, we cut it out of the real  fur material (the sweater). Lastly, we hot glued the fur coat on to the cat skeltons.
+
+Fabric pattern for fur:
 
 <img width="542" alt="Screen Shot 2021-12-12 at 11 31 00 PM" src="https://user-images.githubusercontent.com/73661058/145752752-78581013-b9c8-45e8-9572-f4337c93e5a9.png">
 <img width="551" alt="Screen Shot 2021-12-12 at 11 31 39 PM" src="https://user-images.githubusercontent.com/73661058/145752815-ab649266-ac61-4278-8fc2-e5c512987300.png">
 <img width="553" alt="Screen Shot 2021-12-12 at 11 32 16 PM" src="https://user-images.githubusercontent.com/73661058/145752843-591fb3e4-3495-4e68-9346-fa541159cbaf.png">
 
-Cat covered in furr:
+Cat covered in fur:
 
 <img width="529" alt="Screen Shot 2021-12-12 at 11 32 57 PM" src="https://user-images.githubusercontent.com/73661058/145752889-6070a3bf-a233-4c88-8f0a-3ef64048f2d8.png">
 
@@ -94,15 +95,14 @@ Cat covered in furr:
 
 After putting the fur on, we decided to test that the sensors worked one more time. It did work at first after the fur was put on and glued down, but at some point, the touch sensors completely stopped working under the fur, and the only way to trigger them after this point was by either poking through the fur with a conductive needle, or reaching underneath the fur to touch the strips directly. We speculated that having the fur taut and attached onto the sensors for an extended period of time meant the touch sensors may always be activated for some reason, so any further activation by touching the fur would not cause any change in sensor output. Another possible reason is that the fur and the strips had some long-term interaction electrically, which may have brought the fur to a point were any touch would not change its electromagnetic structure enough to change what the sensor detects. In any case, we experimented with cutting holes in the fur (which did not work reliably), having small conductive bumps that connected directly to the strips (which ruined the realistic and comforting sensation when petting the cats), and a few other attempts to fix this. We finally settled on instead wrapping one conductive tape strip around the furr, which were placed where the user is most likely to touch them while petting the intended areas of the cat, and connecting those directly to the touch sensors. These brass-colored strips can be seen in the final images of the working cats. This design worked out quite well, as there were rarely any times where the user was unable to hit the right spots to cause an interaction with the cat.
 
-The last step to the cats appearance was to add the heart light for interaction between the two cats. To do this we taped the LED lights to the chest of the cats, covered them in a thin furr to intensify thier shine, and put a duct tape heart on top of the chest furr.
+The last step to the cats appearance was to add the heart light for interaction between the two cats. To do this we taped the LED lights to the chest of the cats, covered them in a thin cotton-like fur to spread the light to a shape and size we wanted, and duct taped a paper heart on top of the chest furr.
 
 Heart light:
 
 <img width="509" alt="Screen Shot 2021-12-12 at 11 33 32 PM" src="https://user-images.githubusercontent.com/73661058/145752955-b879156c-d9de-4477-85e1-e24a95d62769.png">
 
-Under the cats we added a box for cat to stand on. This served to stablize the cat allowing it to stand and hide the pi, senors, and speaker from the user.
+Under the cats we added a pedestal for cat to stand on. This served to stablize the cat, allowing it to stand, as well as hide the Raspberry Pi, senors, speaker, and other electronics from the user. We re-used a box we found in a recycling bin, and cut it to do exactly what we needed. Specifically, we needed the box to have one side open faced, so that wires like the power chord can come out of it and so that we can reach in to fix or adjust anything if needed. We also needed small holes on top of the pedestal so that wires that run through the bottom of the cat skeleton can come through the box and connect to the electronics within the box. In order to do this in the most elegant way, we taped all the wires that run through the cat to either of the right legs of the cat and cut the holes in the box to be right next to those legs. This allowed us to hide the wires from the user, which is a major part of creating that realistic experience. We made two of these pedestals by cutting the recycled box in half, cutting the holes we needed by precisely measuring their sizes and positions, and cutting a separate piece of cardboard to make the sides that were left open by cutting the original box in half. We then cut some tablecloth-like fabric to go over the box for aesthetic purposes, which can also be seen in the final images of the working cats.
 
-[Discuss more about the cats stand and box if necessary]
 [In general add any photos or details I missed from this section]
 
 ## Final Device Design
