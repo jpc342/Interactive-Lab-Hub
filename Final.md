@@ -2,8 +2,11 @@
 
 ## Project Description
 
-This project consists of two interactive kitties that respond in cat-like ways when touched by the user. When pet, the cats purr, wag their tails, move their paws, and meow. These two cats are also connected. When both cats are being interacted with at the same time a heart light will turn on, on both the cats and the cats will meow. The goals of this project are to create an emotional experience for users similar to petting a cat and to connect long distance friends through interacting with our cats.
-The inspiration for this project stems a lot from our time quarantined during 2020 and wishing we had both a pet to interact with and connection with our friends. We were also very much inspirated by the research of Ran Zhou that highlights the emotional response in users from robotic physical contact (https://www.ranzhourobot.com/).
+This project consists of two interactive kitties that respond in cat-like ways when touched by the user. When interacted with through petting, the cats purr, wag their tails, move their paws, and meow. These two cats are also connected. When both cats are being interacted with at the same time a heart light will turn on, on both the cats and the cats will meow. The goals of this project are to create an emotional experience for users similar to petting a cat and to connect long distance friends through interacting with our cats.
+
+The inspiration for this project comes from our feelings and the feelings of the people surrounding us during the pandemic. During this time and especially during quarantine, we saw that people were feeling trapped in their homes with nothing to do and, more importantly, isolated from people they care about. In response to this, a lot of people decided to get dogs, cats, or other pets to try to fill that void, but there are two problems with this. The first is that not everyone is able to get a pet due to cost, allergies, or other reasons, and the second is that this does not change the fact that people have been separated from their loved ones. We wanted to try and fix these problems with robotic pets that are individually interactive, but are also connected so that people that are geographically separated can be connected in a way that feels organic. 
+
+We were also very much inspired by the research of Ran Zhou that highlights an emotional response in users from robotic physical contact (https://www.ranzhourobot.com/).
 
 [add story board]
 
