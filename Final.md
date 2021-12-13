@@ -66,16 +66,17 @@ Simpler cat 3D model puzzle we used:
 
 ![IMG_7064](https://user-images.githubusercontent.com/73661058/145750078-69435904-f33b-41a9-aba5-3f87c68b9e88.jpg)
 
-Once we had our cardboard skeletons created, we added in the servo motors and tested out the movement of our kitties as skelton cats. To do this, we detached the arm of the cat, cut a gap in the skelton to place the motor, and hot glued the detached cat arm to the wing of the motor. For the tail, we started by completely removing the cardboard tail and replacing it with wire cover in yarn (a more realistic looking tail). then the cut another gap in the rear of the cats to place thier tail motors.
+Once we had our cardboard skeletons created, we added in the servo motors and tested out the movement of our kitties as skelton cats. Our design is built around a few central frame pieces, so to get our servos to be in the right spots, we had to attach them to one of those central pieces. This was done easily with tape (instead of glue to avoid complications of glue directly on electronics), but the motors are slightly too large to fit between two central pieces in our puzzle piece model. To fix this, we cut holes in the next piece over so that the motors would just fit through them without messing up the structural integrity of the cat. There were two servo motors per cat that had to be attached, one at the arm and one at the tail. 
 
 [Add any details I am missing here and any additional photos you have]
+For the arm's motor, we first detached the arm of the cat from the edge piece of the model so that it could be moved alone when attached to the motor. We then cut a gap in the skeleton as mentioned above to place the motor. We also had to cut a small hole in the original piece that held the arm because just the small part of the motor that holds the moving attachment had to poke through. Lastly, we hot glued the detached cat arm to the attachment of the motor, so that the arm can move on its own outside the stationary frame, giving the illusion of a shoulder joint. For the tail's motor, we started by completely removing the cardboard tail that was part of the original model, and we replaced it with a more realistic looking tail, which consisted of yarn wrapped around a wire to hold its shape. Then, we placed the motor in a similar way to the arm motor, and that was enough for the tail to work.
 
 Photos of this stage:
 
 <img width="829" alt="Screen Shot 2021-12-12 at 11 09 28 PM" src="https://user-images.githubusercontent.com/73661058/145751091-66acae65-2b39-4e8b-8f7c-f1fc218a6c93.png">
 <img width="556" alt="Screen Shot 2021-12-12 at 11 09 58 PM" src="https://user-images.githubusercontent.com/73661058/145751120-eb435b79-7ca3-4506-8318-b09975b34ad5.png">
 
-Next we add metal places to the skeleton for touch sensors [discuss how and why this failed] attached to alligator clips and covered the skeltons in furr. For the cat furr we used an old sweater we thirfted from Good Will. To get a cat shape from the furr we first created a pattern with thinner fabric and then cut it out of the thick furr material. Lastly we hot glued the furr coat on to the cat skeltons.
+Next we add metal places to the skeleton for touch sensors [discuss how and why this failed] attached to alligator clips and covered the skeltons in furr. For the cat furr we used an old sweater we thrifted from GoodWill. To get a cat shape from the furr we first created a pattern with thinner fabric and then cut it out of the thick furr material. Lastly, we hot glued the furr coat on to the cat skeltons.
 Fabric pattern for furr:
 
 <img width="542" alt="Screen Shot 2021-12-12 at 11 31 00 PM" src="https://user-images.githubusercontent.com/73661058/145752752-78581013-b9c8-45e8-9572-f4337c93e5a9.png">
