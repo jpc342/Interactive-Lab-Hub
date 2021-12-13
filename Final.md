@@ -68,15 +68,16 @@ Simpler cat 3D model puzzle we used:
 
 Once we had our cardboard skeletons created, we added in the servo motors and tested out the movement of our kitties as skelton cats. Our design is built around a few central frame pieces, so to get our servos to be in the right spots, we had to attach them to one of those central pieces. This was done easily with tape (instead of glue to avoid complications of glue directly on electronics), but the motors are slightly too large to fit between two central pieces in our puzzle piece model. To fix this, we cut holes in the next piece over so that the motors would just fit through them without messing up the structural integrity of the cat. There were two servo motors per cat that had to be attached, one at the arm and one at the tail. 
 
-[Add any details I am missing here and any additional photos you have]
-For the arm's motor, we first detached the arm of the cat from the edge piece of the model so that it could be moved alone when attached to the motor. We then cut a gap in the skeleton as mentioned above to place the motor. We also had to cut a small hole in the original piece that held the arm because just the small part of the motor that holds the moving attachment had to poke through. Lastly, we hot glued the detached cat arm to the attachment of the motor, so that the arm can move on its own outside the stationary frame, giving the illusion of a shoulder joint. For the tail's motor, we started by completely removing the cardboard tail that was part of the original model, and we replaced it with a more realistic looking tail, which consisted of yarn wrapped around a wire to hold its shape. Then, we placed the motor in a similar way to the arm motor, and that was enough for the tail to work.
+As seen in the image directly above, the edge piece of the cardboard model includes both left legs in one piece (we call the front leg the "arm" for simplicity's sake). Consequentely, we first detached the arm of the cat from that edge piece of the model so that it could be moved separately from the left leg. We then cut a gap in the skeleton as mentioned above to place the motor. We also had to cut a small hole in the original piece that held the arm because just the small part of the motor that holds the moving attachment had to poke through. Lastly, we hot glued the detached cat arm to the attachment of the motor, so that the arm can move on its own outside the stationary frame, giving the illusion of a shoulder joint. For the tail's motor, we started by completely removing the cardboard tail that was part of the original model, and we replaced it with a more realistic looking tail, which consisted of yarn wrapped around a wire to hold its shape. Then, we placed the motor in a similar way to the arm motor, and that was enough for the tail to work.
 
 Photos of this stage:
 
 <img width="829" alt="Screen Shot 2021-12-12 at 11 09 28 PM" src="https://user-images.githubusercontent.com/73661058/145751091-66acae65-2b39-4e8b-8f7c-f1fc218a6c93.png">
 <img width="556" alt="Screen Shot 2021-12-12 at 11 09 58 PM" src="https://user-images.githubusercontent.com/73661058/145751120-eb435b79-7ca3-4506-8318-b09975b34ad5.png">
 
-Next we add metal places to the skeleton for touch sensors [discuss how and why this failed] attached to alligator clips and covered the skeltons in furr. For the cat furr we used an old sweater we thrifted from GoodWill. To get a cat shape from the furr we first created a pattern with thinner fabric and then cut it out of the thick furr material. Lastly, we hot glued the furr coat on to the cat skeltons.
+Next we added the same conductive strips that were used in the 2D model to the 3D skeleton for the touch sensors, which we attached to alligator clips that ran through the skeleton out the bottom. Before doing this, we did some testing with these strips because our plan was to put these sensors underneath the fur of the cat because they are capacitive, so we thought they may work. To test this, we just tried putting different types of materials, as well as the fur we chose (details discussed later) on top of the strips and seeing if we could just sense a touch. During our testing, this seemed to work with no problems, so after we were convinced that it would work, we went through with the plan. While it did work at first after the fur was put on and everything, at some point, the touch sensors completely stopped working under the fur, and the only way to trigger them after this point was HERR
+
+covered the skeltons in furr. For the cat furr we used an old sweater we thrifted from GoodWill. To get a cat shape from the furr we first created a pattern with thinner fabric and then cut it out of the thick furr material. Lastly, we hot glued the furr coat on to the cat skeltons.
 Fabric pattern for furr:
 
 <img width="542" alt="Screen Shot 2021-12-12 at 11 31 00 PM" src="https://user-images.githubusercontent.com/73661058/145752752-78581013-b9c8-45e8-9572-f4337c93e5a9.png">
@@ -92,6 +93,7 @@ Cat covered in furr:
 The last step to the cats appearance was to add the heart light for interaction between the two cats. To do this we taped the LED lights to the chest of the cats, covered them in a thin furr to intensify thier shine, and put a duct tape heart on top of the chest furr.
 
 Heart light:
+
 <img width="509" alt="Screen Shot 2021-12-12 at 11 33 32 PM" src="https://user-images.githubusercontent.com/73661058/145752955-b879156c-d9de-4477-85e1-e24a95d62769.png">
 
 Under the cats we added a box for cat to stand on. This served to stablize the cat allowing it to stand and hide the pi, senors, and speaker from the user.
@@ -105,12 +107,15 @@ Final look:
 <img width="528" alt="Screen Shot 2021-12-12 at 11 39 15 PM" src="https://user-images.githubusercontent.com/73661058/145753356-41e7d3c1-1dbd-4fe7-8f7a-37ed99b667da.png">
 
 Evolution of the cats:
+
 <img width="987" alt="Screen Shot 2021-12-12 at 11 40 52 PM" src="https://user-images.githubusercontent.com/73661058/145753486-5a504150-8990-4678-a394-a148412aaba7.png">
 
 Cats working:
+
 https://user-images.githubusercontent.com/73661058/145753313-f118803b-0259-4138-ba82-10a24565e6ff.mov
 
 Us with the cats :blush: :
+
 <img width="517" alt="Screen Shot 2021-12-12 at 11 40 29 PM" src="https://user-images.githubusercontent.com/73661058/145753457-aa2a2e7b-e35a-41ef-ba3f-67a6326bb5cb.png">
 
 [Add any more photos for photos and videos]
