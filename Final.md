@@ -163,7 +163,6 @@ We kept the yarn for the entire chest but used a cutout sticker to emphasize the
 
 Under the cats, we added a pedestal for cat to stand on. This served to stablize the cat, allowing it to stand, as well as hide the Raspberry Pi, senors, speaker, and other electronics from the user. We re-used a box we found in a recycling bin, and cut it to do exactly what we needed. Specifically, we needed the box to have one side open faced, so that wires like the power chord can come out of it and so that we can reach in to fix or adjust anything if needed. We also needed small holes on top of the pedestal so that wires that run through the bottom of the cat skeleton can come through the box and connect to the electronics within the box. In order to do this in the most elegant way, we taped all the wires that run through the cat to either of the right legs of the cat and cut the holes in the box to be right next to those legs. This allowed us to hide the wires from the user, which is a major part of creating that realistic experience. We made two of these pedestals by cutting the recycled box in half, cutting the holes we needed by precisely measuring their sizes and positions, and cutting a separate piece of cardboard to make the sides that were left open by cutting the original box in half. We then cut some tablecloth-like fabric to go over the box for aesthetic purposes, which can also be seen in the final images of the working cats.
 
-[In general add any photos or details I missed from this section]
 
 ## Final Device Design
 
