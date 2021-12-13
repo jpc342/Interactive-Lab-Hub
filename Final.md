@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project consists of two interactive kitties that respond in cat like ways when touched by the user. When pet the cats purr, wag thier tags, move thier paws, and meow. These two cats are also connected. When both cats are being interacted with at the same time a heart light will turn on, on both the cats and the cats will meow. The goals of this project are to create an emotional experience for users similar to petting a cat and to connect long distance friends through interacting with our cats.
+This project consists of two interactive kitties that respond in cat-like ways when touched by the user. When pet, the cats purr, wag their tails, move their paws, and meow. These two cats are also connected. When both cats are being interacted with at the same time a heart light will turn on, on both the cats and the cats will meow. The goals of this project are to create an emotional experience for users similar to petting a cat and to connect long distance friends through interacting with our cats.
 The inspiration for this project stems a lot from our time quarantined during 2020 and wishing we had both a pet to interact with and connection with our friends. We were also very much inspirated by the research of Ran Zhou that highlights the emotional response in users from robotic physical contact (https://www.ranzhourobot.com/).
 
 [add story board]
@@ -25,11 +25,9 @@ The appearance of the cats was made up of:
 - Yarn
 - Ribbon
 
-To start building these two cats, we first created a simple 2D card borad verison of the cats to ensure all the technology would work well together and to prototype user ineraction. The 2D verison of the cats used the servo motor to move a cardbord arm of the cat when it is touched. The 2D cats also purr when they are touched and demonstrate the connection between the two cats when both 2D cats are touched at the same time by shine a red LED light through a paper heart.
+To start building these two cats, we first created a simple 2D cardboard verison of the cats to test the technology would work well together and to prototype user interaction. The 2D verison of the cats used the servo motor to move a cardboard arm of the cat when it is touched. The 2D cats also purr when they are touched, and they show the connection between the two cats by shining a red LED light through a paper heart when both are interacted with at the same time.
 
-[Perhaps talk more about how the tech of the cats works]
-
-Appearance of the two cats:
+This is what the 2D cats look like:
 
 <img width="975" alt="Screen Shot 2021-12-12 at 10 27 58 PM" src="https://user-images.githubusercontent.com/73661058/145747859-02a0b7d6-1545-4ae9-8d12-89e53d377581.png">
 
@@ -45,8 +43,18 @@ Back view of the cats:
 
 <img width="546" alt="Screen Shot 2021-12-12 at 10 29 19 PM" src="https://user-images.githubusercontent.com/73661058/145747959-8223169d-07ca-407b-9071-c8cad17d4071.png">
 
-After validating that all of our technological components worked well together and testing our 2D cats with some peer users we began constructing the 3D cats. Our plan to create these 3D cats was to created a cardborad skeleton for the cats, place wires for sensors and servo motors in the skelton and cover the cardboard skelton with fur to give a cat like appearance and feel.
-To create the cats cardbord skelton, we found some 3D model puzzles online and used to a laser cutter to cut them pieces. This process took us much time and experimentation. The first cat 3D model puzzles we found looked nice but when cut there was way too many pieces and we struggled to put it together. This lead us to finding a new model with less pieces that was more managable for our project. Once we selected our model we had to experiment with cardboard thickness to find the best possible skeltons for our kitties.
+[Perhaps talk more about how the tech of the cats works]
+To make this technology work, we had to integrate several different functions into the program because a making something "interactive" almost by definition means there must be more than one type of action from the user to start an interaction and more than one type of reaction from the device in response. For each individual cat, we used capacitive sensors, speakers, servo motors, and MQTT communication. Here is a diagram of the full system architecture:
+
+![image](https://user-images.githubusercontent.com/67603876/145860922-fc8fa2b2-c298-4d65-b751-c4fdadccd171.png)
+
+The interactions alone have all individually been done before in previous labs, so integrating them was the biggest technological challenge. Since there were so many things connected and running at the same time, it was easy for us to miss something being slightly unplugged or for the Raspberry Pi to miss when one of the sensors was touched, so we ran into a lot of Remote I/O errors while prototyping. Additionally, the connection to the MQTT server would drop on occasion, which we mainly worked around by restarting the program, and this seemed to work.
+
+As seen in the above images, the capacitive touch sensors were connected by alligator clips to rectangular conductive strips that we made by cutting up a soda can, which we thought would be ideal because they are thin and light, while also being easy to clip onto and tape down, as well as being conductive. We would use this same method of spreading out the touchable areas of the sensors in the final design of the cat, until we ran into some problems, which will be discussed later. Regardless, these "touch pads" worked well for the prototype, and the other functions did not cause many issues.
+
+After validating that all of our technological components worked well together and testing the interactions of our 2D cats with some peer users we began constructing the 3D cats. Our plan to create these 3D cats was to created a cardboard skeleton for the cats, place wires for sensors and servo motors in the skelton and cover the cardboard skelton with fur to give a cat like appearance and feel. In our user testing, we found that people loved the idea of the interactive robotic pet, but the unrealistic look of the 2D prototype was certainly a factor in making the experience more artificial than it should be. For this reason, we knew we had to really create a realistic-enough looking cat and find a way to integrate our technology into it; otherwise, our final product would not have the desired effect of bringing people comfort.
+
+To create the cats cardboard skelton, we found some 3D model puzzles online and used to a laser cutter to cut them pieces. This process took us much time and experimentation. The first cat 3D model puzzles we found looked nice but when cut there was way too many pieces and we struggled to put it together. This lead us to finding a new model with less pieces that was more managable for our project. Once we selected our model we had to experiment with cardboard thickness to find the best possible skeltons for our kitties.
 
 Complicated cat 3D model puzzle:
 
@@ -56,7 +64,7 @@ Simpler cat 3D model puzzle we used:
 
 ![IMG_7064](https://user-images.githubusercontent.com/73661058/145750078-69435904-f33b-41a9-aba5-3f87c68b9e88.jpg)
 
-Once had our cardboard skeletons created, we added in the servo motors and tested out the movement of our kitties as skelton cats. To do this, we detached the arm of the cat, cut a gap in the skelton to place the motor, and hot glued the detached cat arm to the wing of the motor. For the tail, we started by completely removing the cardboard tail and replacing it with wire cover in yarn (a more realistic looking tail). then the cut another gap in the rear of the cats to place thier tail motors.
+Once we had our cardboard skeletons created, we added in the servo motors and tested out the movement of our kitties as skelton cats. To do this, we detached the arm of the cat, cut a gap in the skelton to place the motor, and hot glued the detached cat arm to the wing of the motor. For the tail, we started by completely removing the cardboard tail and replacing it with wire cover in yarn (a more realistic looking tail). then the cut another gap in the rear of the cats to place thier tail motors.
 
 [Add any details I am missing here and any additional photos you have]
 
@@ -65,7 +73,7 @@ Photos of this stage:
 <img width="829" alt="Screen Shot 2021-12-12 at 11 09 28 PM" src="https://user-images.githubusercontent.com/73661058/145751091-66acae65-2b39-4e8b-8f7c-f1fc218a6c93.png">
 <img width="556" alt="Screen Shot 2021-12-12 at 11 09 58 PM" src="https://user-images.githubusercontent.com/73661058/145751120-eb435b79-7ca3-4506-8318-b09975b34ad5.png">
 
-Next we add metal places to the skelton for touch sensors [discuss how and why this failed] attached to alligator clips and covered the skeltons in furr. For the cat furr we used an old sweater we thirfted from Good Will. To get a cat shape from the furr we first created a pattern with thinner fabric and then cut it out of the thick furr material. Lastly we hot glued the furr coat on to the cat skeltons.
+Next we add metal places to the skeleton for touch sensors [discuss how and why this failed] attached to alligator clips and covered the skeltons in furr. For the cat furr we used an old sweater we thirfted from Good Will. To get a cat shape from the furr we first created a pattern with thinner fabric and then cut it out of the thick furr material. Lastly we hot glued the furr coat on to the cat skeltons.
 Fabric pattern for furr:
 
 <img width="542" alt="Screen Shot 2021-12-12 at 11 31 00 PM" src="https://user-images.githubusercontent.com/73661058/145752752-78581013-b9c8-45e8-9572-f4337c93e5a9.png">
