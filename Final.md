@@ -28,6 +28,26 @@ The appearance of the cats was made up of:
 - Yarn
 - Ribbon
 
+### Design Considerations
+
+[Appearance]
+- Overall look and feel: Cute and soft. Our goal is to cause a pemotional reaction from the user. We want to recreate the soothing and joyful experience with a cat, not a scary one.,
+- Shape and posture: Seated, because it gives more stability in the shape and we imagined it to be more natural for cat to move her arm while seated.
+- Realistic or cartoonish: Cartoonish, it might look scary or creepy with a realistic features. We drew few realistic eyes and knew right away it is going to scare people.
+- Locations for the tail, arm, and heart: Locations of the moving body parts had to be realistically adopting its positions in the real cat but also feasible for us to build with the sensors. From the prototyping, we learned that users tend to be forgiving towards slightly unnatural positions of body parts.
+- Locations for the sensors and wires: We hid the pi, sensors, speaker, and wires all behind the cardbox. It was easy for a quick 2D prototyping but through this process we realised the cat's body will have to leave some hollow space for the sensors for 3D.
+- We discussed the look and feel of the kitties as well, but it did not really matter for the 2D prototyping. We focused on the functionality check.
+
+
+[Functions]
+- Initiating interaction: We considred face recognition (when human stares at the cat from the front) or body recognition (when waving at the cat) or proximity (when near by) or captive (when touched). We decided to go for the touch first and build the wave recognition part if time allows. We dropped the face recognition and proximity because we imagined it will be hard to control the background at the showcase(open studio).
+- Interaction flow: HUMAN TOUCH -> HAPPY CAT -> TOUCHES BACK is our main flow for the interaction. When human touches the cat, the cat will purr, wag her tail, or meow to indicate that she's feeling the touch and happy about it. The cat can also move her arm in attempt to touch the person back.
+- Locations of touch sensors: We tested with random students at Tata to see where do they naturally want to touch a cat. Mostly back, paw and sometimes the face. From this, we decided to put most of our sensors on the back.
+
+### Prototype in 2D
+
+![Untitled_Artwork](https://user-images.githubusercontent.com/42717070/145827982-43133f51-25ad-4d52-be62-b954cda9e619.jpg)
+
 To start building these two cats, we first created a simple 2D cardboard verison of the cats to test the technology would work well together and to prototype user interaction. The 2D verison of the cats used the servo motor to move a cardboard arm of the cat when it is touched. The 2D cats also purr when they are touched, and they show the connection between the two cats by shining a red LED light through a paper heart when both are interacted with at the same time.
 
 This is what the 2D cats look like:
@@ -40,7 +60,7 @@ https://user-images.githubusercontent.com/73661058/145748293-b33c4179-f564-44e3-
 
 Two cats working together:
 
-[Soul insert your video here]
+https://user-images.githubusercontent.com/42717070/145828042-17c11f66-937c-43e8-b876-2cd13c1d8046.mov
 
 Back view of the cats:
 
@@ -53,6 +73,8 @@ To make this technology work, we had to integrate several different functions in
 The interactions alone have all individually been done before in previous labs, so integrating them was the biggest technological challenge. Since there were so many things connected and running at the same time, it was easy for us to miss something being slightly unplugged or for the Raspberry Pi to miss when one of the sensors was touched, so we ran into a lot of Remote I/O errors while prototyping. Additionally, the connection to the MQTT server would drop on occasion, which we mainly worked around by restarting the program, and this seemed to work.
 
 As seen in the above images, the capacitive touch sensors were connected by alligator clips to rectangular conductive strips that we made by cutting up a soda can, which we thought would be ideal because they are thin and light, while also being easy to clip onto and tape down, as well as being conductive. We would use this same method of spreading out the touchable areas of the sensors in the final design of the cat, until we ran into some problems, which will be discussed later. Regardless, these "touch pads" worked well for the prototype, and the other functions did not cause many issues.
+
+### 2D to 3D
 
 After validating that all of our technological components worked well together and testing the interactions of our 2D cats with some peer users we began constructing the 3D cats. Our plan to create these 3D cats was to created a cardboard skeleton for the cats, place wires for sensors and servo motors in the skelton and cover the cardboard skelton with fur to give a cat like appearance and feel. In our user testing, we found that people loved the idea of the interactive robotic pet, but the unrealistic look of the 2D prototype was certainly a factor in making the experience more artificial than it should be. For this reason, we knew we had to really create a realistic-enough looking cat and find a way to integrate our technology into it; otherwise, our final product would not have the desired effect of bringing people comfort.
 
