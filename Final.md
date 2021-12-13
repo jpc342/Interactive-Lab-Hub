@@ -196,7 +196,7 @@ https://user-images.githubusercontent.com/42717070/145842269-49b2aa1d-128c-4981-
 
 This person in the video above was petting the cat very firmly and stroking its back all the way through the end of the tail, which is how many people pet a real cat. It was as if she was touching her own cat at home. It was thrilling to see some people interacting with our robot cats in the same way they would with a real one and seeing their reactions to how our cats interacted with them.
 
--
+
 Other best comments from the users we met at the Open Studio:
 
 - "I'm alergic to cats. OMG NOW I CAN TOUCH THE CAT"
