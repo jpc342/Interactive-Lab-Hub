@@ -42,7 +42,7 @@ Appearance
 
 Functions
 
-- Initiating interaction: We considred face recognition (when human stares at the cat from the front) or body recognition (when waving at the cat) or proximity (when near by) or captive (when touched). We decided to go for the touch first and build the wave recognition part if time allows. We dropped the face recognition and proximity because we imagined it will be hard to control the background at the showcase(open studio).
+- Initiating interaction: We considred face recognition (when human stares at the cat from the front) or body recognition (when waving at the cat) or proximity (when near by) or captive (when touched). We decided to go for the touch first and build the wave recognition part if time allows. We dropped the face recognition and proximity because we imagined it will be hard to control the background at the showcase (open studio).
 - Interaction flow: HUMAN TOUCH -> HAPPY CAT -> TOUCHES BACK is our main flow for the interaction. When human touches the cat, the cat will purr, wag her tail, or meow to indicate that she's feeling the touch and happy about it. The cat can also move her arm in attempt to touch the person back.
 - Locations of touch sensors: We tested with random students at Tata to see where do they naturally want to touch a cat. Mostly back, paw and sometimes the face. From this, we decided to put most of our sensors on the back.
 
