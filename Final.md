@@ -187,7 +187,7 @@ Us with the cats :blush: :
 
 - Meeting humans at the IDD class:
 
-https://user-images.githubusercontent.com/42717070/145840834-05af1ffe-5cc3-4e0d-8301-7d49253344c6.MOV
+https://user-images.githubusercontent.com/42717070/145901099-ba9b7939-6443-43dd-87de-74a6f8c827c9.mov
 
 - Purring at the Open Studio:
 ![IMG_8448](https://user-images.githubusercontent.com/42717070/145841007-07cc3c51-e4b5-4dd9-8efa-295c5c7562e0.jpg)
