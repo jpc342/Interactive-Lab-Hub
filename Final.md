@@ -62,7 +62,8 @@ https://user-images.githubusercontent.com/73661058/145748293-b33c4179-f564-44e3-
 
 Two cats working together:
 
-https://user-images.githubusercontent.com/42717070/145828042-17c11f66-937c-43e8-b876-2cd13c1d8046.mov
+https://user-images.githubusercontent.com/42717070/145901068-b5ad8bc8-5039-4bbf-99db-e8984b885482.mov
+
 
 Back view of the cats:
 
